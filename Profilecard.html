@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilecard</title>
+
+    <style>
+
+        body{
+            margin: 0%;
+            background:url("https://th.bing.com/th/id/OIP.uxJx6gjIKiSbVVZCNMaw_gHaEH?w=277&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7")
+
+        }
+        #main{
+            background-color: rgb(88, 16, 16);
+            width: 350px;
+            height: 600px;
+            margin: auto;
+            margin-top: 15px;
+            border-radius: 14px;
+        }
+        h1{
+            background-color: rgb(230, 234, 235);
+            margin: auto;
+            color:black;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            /* border-radius: 14px; */
+        }
+        #images{
+            display: flex;
+            justify-content: center;
+            margin-top: 18px;
+        }
+        img{
+            border-radius: 100%;
+        }
+        p{
+            color: white;
+            text-align: center;
+            padding: 8px;
+        }
+        #foll{
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        h4{
+            color: white;
+            margin-top: 3px;
+        }
+        .last{
+            margin-bottom: 0px;
+        }
+        #but{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #button1{
+            padding:9px 26px;
+            border-radius: 8px;
+            background-color: bisque;
+        }
+        #button2{
+            padding:9px 15px;
+            border-radius: 8px;
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="main">
+        <div>
+            <h1>Profilecard</h1>
+        </div>
+        <div id="images">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAzAMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABgcDBQECBAj/xAA6EAABAwMCAwYFAgQFBQAAAAABAAIDBAUREiEGMUEHE1FxgZEiMmGhsRQjFnLB0RVCgpLwJDM0UqL/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQIDBAX/xAAgEQEBAAICAgMBAQAAAAAAAAAAAQIRAyESMSIyQQQT/9oADAMBAAIRAxEAPwCy0RFoqIiICIiAiIgIiIC4XK1nEd5gsFmqblVbshb8LRze47Bo8yg2Mj2RML5HtYwc3OOAPVYKavo6p+ilq6eZ4/yxytcfYFfN1xuV74vujpag1FZI5x0QsPwxjoAOQAXqZwbxHAz9VFa5GaPiBa/DxjwwcqvlFpja+kEVYdnHHlbWXBtgvzZDUO2hmeMP2GdLs8+R3Vn/AI6K07VEREBERAREQEREBERAREQEREBERAREQEREBRHtStJu/B9SGPLZKRwqW+B0g5HsSpctPxh3n8L3Pu8AmBwOd/hOx+2VF9Jk3UI4HoKahpoxHE0PIGp2Blxwp0HRQsLpC1jBzc52APVVpRWN11zVawxrQC9ziSfpjcYUjorRLfeGKaGrqSXRyOLZXNDsgHbnncDquL3fb0NWTTxcYUFNU3Oz3mgkiMlJWxd4+JwOW6wcEj1Vlu+Y+PVRGss8NNb2Q5dKS9jnOJGp2k5AyAPAqVx57tmSSdIyT1+q6eK/jl5sdduyIi1YCIiAiIgIiICIiAiIgIiICIiAiIgIiICxzwsqIJIZRqjkYWOHiDzWRETLrtVd4FZaJK62WtwLmPwI3n4nRkZGCeexC9fDX+Ii3wgXDVLkllO5oGknp4Y3+q6dpDYa29Ri2StZcqKId8RgjB3a13pv9NX1WnsdRfRVGWkscbqogjvfhDAce65LjJl07sc7cd1O7TK/9ZT0NbJHNVa3uIZy0gHf7geuFKc56YwoRYqf+HZYqy9Td9WV0rYHzAfDGXnDWjwbn8qbrbikkc/NbcuxERasBERAREQEREBERAREQEREBERAREQETzUa474pZwtaBOxsctZO7RTxOOPNxHPA/sOqCSHbJJAAGdzhQPivtOtdqbJTWnTcK0ZbqYf2mHrl3+byCrG78XcQXeOSKtucphk2dDHhjCPDbp6rQmM4w3l4K3jWd5IlHBdykquIZxXyGR9a8yF5O5fuT9vwres9NJTl7WEdy7fBG7V89QmWJ22A4HLXB2CFYNk7R6iltctNcKYz1UTP+mkacd4egf8A325Ln5OG27jp4f6JJ45Nr2t3RsNNTWmI/vSuEziObGN5H1P4WXhjtQj7uOl4ghLXNAb+riGQfq5vP1GVWFyqaq61k9ZXSl9RMcuOft9B9F0a0hoGcrfj49Y6rl5ebyy3H0xR1dNX07amiqIqiB4y2SJwc0+qzDovmugr6+2uLrfWT0xJyRFIWgnxI5FXB2ccXS36nko7nI03GAag4DT3zPHHiOvorXDScOSZXSaoiKjQREQEREBERAREQEREBERAREQF8/8AaddBc+MqwB+qKlxTtwdst+b7k+yv8vawF7yA1o1EnwC+WJ531U0lVJ8873SP83HJ/KmK53p3eWt5e6MBdueS8zX6ntaTyXtjIIV5WGU0AAJG7M7v5Fy4LpCP33/yhW/URn5rkBcMB5FZQxXUdMeCz2q4PtN1pbhHqzTyte4NOC5oO49RkLy1RDInOJIwujSSPi5u5qu/xM67fT7HtkY2RhBY9oc1w6jouVpuDak1fCdpnccuNKxpP8ox/RblYenZO+xERAREQEREBERAREQEREBERBoeOq02/hC61DTh3cFjD9XfD/VfOrd2kD5VcvbVWuhsFFRNdgVVTmT+Vgz+S1U24CPrsfDqrRlye3jc7EmV6Y5cBbaHhiao4NrOI8kNgqmRNZj5mbh7v9xb7FaLTuAPdVl7Tceu3t/UMA+Igea99DaLnVOdNTW2ulicBh7aZ5afXGFsOzasobZxVTz10LpiWubDpwdD8c9/oMeqv6i4giqoO8hpXOxt+48D7DKZcsxva2HBcpuPm6op56OodDVQyQytxlkjdJGeS6ul0jmpj2vVzqziWna+nhjcylB1xtw54Ljs49cY28yoUWh4xjfxW2GXlNxz54+GVxry18msNIJwHb7c1kp/ia3O63lFw+65cNXu4AAvt8cb2b8/iOr10j7rR0pacNGdgqz7Js+EXp2VVhquEYonkF1NK+LboM5H5UwVS9jVxdFdq22OBEdRD3zB0D2EA+4d/wDKtpUynbfC7xERFCwiIgIiICIiAiIgIiICIiCne2yZ8l8t1PnLI6Uvaxw21OcckejQq2ex4GBuPDKsntqppm3ygq3McYJacxtf0DmuJI89wVXLiRthWjLK9rDrr1BSdjlLQUlTDJWTubBLFC4FzAS5ztQ8hj/UoXauGrpXysDoHwRHnJK3AA8uZWK3hslbStk+TvG591bj+6jA1yx5xkAOG4XPy5XC6jq4MMeTvJHbZwpR0IM0EBrKiJwIdK/SA4fgKZWWeeTEs77XEWk6oI8vOy1dTV01FSSPqp4YI3D5pXYBWXhatoKimb/h5txY6Rw1MpgzT47uwue+V7ru+GPUukR7Uu7feqKeOUP7ymwQARpw4/nKiUZ2Ut7UauCou9G2mnhn7mF7H90W/AdQIBx1UQazVgsyD1Xo8PWEeN/Tq8tsWR2XRC42viG0kAGogbh31Ie3+yqmle1v/cJG3/ArY7G3Nbcro15xK+CPSBywHHP3IUS7TqSKm43q46eCKGNzGSaYmBoyRuSB1JTL7GP0ens5uNPb+K6KWVx0S6oRpByHPGB98K+N8nJB36KguAoz/FtpAaH5m3Dht8p3V+KMluL05REVWgiIgIiICIiAiIgIiICIiDz19DSXGmdTV9PHUQu+aOVuoFQ65dltgq3B1I6po8Zy1khe0/7ske6nKDmhZtQ3HnBv8JMpZYat1VDUOc06owCzGPDzULkLXua4ZyANyVZva/eBVXOO1w6T+ljIkdnk52Dj2A91WbIXCRjXtIaTgkJtT16clzpDmVz3nxcSfyvVBGzuBlh+UZx1Xig1SVDYQ4t1u0j3W3t1C2vqH0dPUTmpbkNYWABxH1UyyK3HKsBEfTUPpld4xvhhPuvTXW6ooLgKCSpBk05ce7xpOCcb/wDN1pXVM2gHvOfPYK/nFP8AO1ZfZK2Y8UyFjXGNlO4SuA2bnGnJ+pUY4zqBW8cXiYHU0VHdg/yAN/IK33YjeWw36pt84le+sjBY4fK3Rk7+/NQuKZ1XU1FS9xJnkdK/zJz/AFUTvJezxw0l/ZrF3vGVFgbRskf5Yaf7q71UnY7TGS/V1VglsFNoz0y9w/o0q20z9p4vqIiKjQREQEREBERAREQEREBERAWKrqI6SlmqZjiKJhe/yAysq0HHge7g67CPn+ndny6oKHrauS4V9TXTkGWoldK/zcc48hy9FxG1ud+pWBpI2JWYOAGHD1UKWs3dAFpIGRu0439167bUTUb5JqXuopyS3vhA3WMjff1XhEuj4Hbxnr1CzU7tMLwMbvPPwU6RtnmL6qrNVWSPlmcNzsB18AujbZRYH7OevxPJXJdsTsu0c3w46qdG0g4EqaWxcR08uiOKGVpimd4NPXyyoPEYsSPia5kJcTGHblrSdsnxxhbvvAQMbc1vI+EKC8UVtNp7yOafT30RdlpbnDzvyIGcJ5TFPjc50n/ZrY32bhuN8/8A5FaRUPH/AKAtGlvt9ypWuGgNAa3Zo5Bcpva2M1BERQkREQEREBERAREQEREBERAXmuUTJrdVxSDLHQvBH+koiFfMvJ3qvQN24KIjKsMmwGCssD3d3z6oiDPqOkrhrjgIisO0j3NGxVy9l9JDHwvBVhv78pdqefDUdh7Iirkvh+peiIiwiIgIiICIiD//2Q==" alt="">
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, 
+                   placeat cumque sapiente ab culpa ipsam quos eius alias magnam, amet inventore
+                    veritatis accusamus exercitationem, voluptatibus dolore fuga quas aut, quibusdam modi.
+                 quod dolorem reprehenderit id nulla beatae porro optio. Numquam, porro?</p>
+        </div>
+        <div id="foll">
+            <div>
+                <p class="last">106</p>
+                <h4>Posts</h4>
+            </div>
+            <div>
+                <p class="last">495</p>
+                <h4>Following</h4>
+            </div>
+            <div>
+                <p class="last">602</p>
+                <h4>Followers</h4>
+            </div>
+        </div>
+
+        <div id="but">
+            <div>
+                <button id="button1">Follow</button>
+            </div>
+            <div>
+                <button id="button2">Message</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
